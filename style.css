@@ -1,0 +1,296 @@
+/* Reset CSS */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Akhir Reset CSS */
+
+body {
+    background-color: black;
+}
+
+/* Header */
+
+header {
+  background-color: rgb(29, 54, 54);
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+.myName {
+  font-size: 60px;
+  font-family: "Sacramento", cursive;
+  color: rgb(124, 201, 199);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+    color: white;
+}
+
+h3 {
+  font-size: 24px;
+  color: rgb(124, 201, 199);
+  text-align: center;
+}
+
+.awan-1,
+.awan-2 {
+  display: block;
+  position: absolute;
+}
+
+.awan-1 {
+    bottom: 50px;
+    left: 100px;
+}
+
+.awan-2 {
+    top: 50px;
+    right: 100px;
+}
+
+/* Akhir Header  */
+
+/* Main Content */
+
+.about-me {
+    text-align: center;
+}
+
+.about-me img {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 50px;
+    width: 150px;
+	height: 150px;
+}
+
+.about-me h2 {
+    font-size: 25px;
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(124, 201, 199);
+}
+
+.about-me p {
+    margin-top: 10px;
+}
+
+.my-skills {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.my-skills h2 {
+    font-size: 28px;
+    color: rgb(124, 201, 199);
+    margin-bottom: 20px;
+}
+
+.skills {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.skills img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.skills .description {
+    padding-left: 20px;
+    text-align: left;
+}
+
+.skills .description h3 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.get-in-touch {
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.get-in-touch h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: rgb(124, 201, 199);
+
+}
+
+.get-in-touch h3 {
+    margin-bottom: 20px;
+    color: rgb(124, 201, 199);
+}
+
+.get-in-touch div {
+    margin-bottom: 40px;
+}
+
+.get-in-touch a {
+    padding: 10px 20px;
+    background-color: #66bfbf;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Akhir Main Content */
+
+/* Footer */
+
+footer {
+    background-color: #66bfbf;
+    height: 150px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0 20px;
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #eaeaea;
+}
+
+footer div {
+    padding-top: 40px;
+}
+
+footer p {
+    margin-top: 40px;
+    color: #000;
+}
+
+/* Akhir Footer */
